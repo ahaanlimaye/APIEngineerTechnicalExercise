@@ -33,6 +33,7 @@ def dir_path(path):
 
 
 def seatmap1_to_json(xml):
+
     # Layout of Response JSON
     res = {
         "departureAirport": "",
@@ -98,7 +99,7 @@ def seatmap1_to_json(xml):
                     }
                 }
 
-                # Adds Seat Objects
+                # Adds Seat Object
                 cabinJSON["seats"].append(seatJSON)
         
             cabinJSON["numRows"] += 1 #Increments numRows of Cabin
@@ -109,9 +110,8 @@ def seatmap1_to_json(xml):
     return res # Returns Response JSON
 
 def seatmap2_to_json(xml):
-
-    tree = ET.parse(xml)
-
+    
+    # Layout of Response JSON
     res = {
         "departureAirport": "",
         "arrivalAirport": "",
@@ -120,11 +120,16 @@ def seatmap2_to_json(xml):
         "cabins": []
     }
 
+    # Namespaces JSON
     ns = {
         "ns": "http://www.iata.org/IATA/EDIST/2017.2", 
         "ns2": "http://www.iata.org/IATA/EDIST/2017.2/CR129"
     }
 
+
+    tree = ET.parse(xml) # Parses XML File
+
+    # Sets Flight Details in Response JSON
     flight = tree.getroot()
     data_lists = flight.find("ns:DataLists", ns)
     flight_info = data_lists.find("ns:FlightSegmentList", ns).find("ns:FlightSegment", ns)
@@ -136,10 +141,12 @@ def seatmap2_to_json(xml):
     res["departureDateTime"] = departure.find("ns:Date", ns).text + "T" + departure.find("ns:Time", ns).text
     res["flightNumber"] = marketing_carrier.find("ns:FlightNumber", ns).text
 
+    # Defines Seat Definitions
     seat_definitions = {}
     for seat_def in data_lists.find("ns:SeatDefinitionList", ns):
         seat_definitions[seat_def.attrib["SeatDefinitionID"]] = seat_def.find("ns:Description/ns:Text", ns).text.replace("_", " ").title()
 
+    # Defines Offers
     seat_offers = {}
     for offers in flight.findall("ns:ALaCarteOffer", ns):
         for offer in offers:
@@ -153,9 +160,10 @@ def seatmap2_to_json(xml):
             }
             seat_offers[offer_id] = offerJSON
 
+    # Iterates through the cabins of the Flight
     for seatmap in flight.findall("ns:SeatMap", ns):
-        cabin = seatmap[1]
-
+        
+        #Layout of CabinJSON
         cabinJSON = {
             "class": "",
             "layout": "",
@@ -164,6 +172,10 @@ def seatmap2_to_json(xml):
             "seats": []
         }
 
+        # Defines Cabin
+        cabin = seatmap[1]
+
+        # Sets numRows and numCols of Cabin
         cabin_layout = cabin.find("ns:CabinLayout", ns)
         layout = ""
         for col in cabin_layout.findall("ns:Columns", ns):
@@ -173,10 +185,10 @@ def seatmap2_to_json(xml):
                 layout += " "
             cabinJSON["numCols"] = str(int(cabinJSON["numCols"]) + 1)
         cabinJSON["layout"] = layout
-
         rows = cabin_layout.find("ns:Rows", ns)
         cabinJSON["numRows"] = str(int(rows.find("ns:Last", ns).text) - int(rows.find("ns:First", ns).text) + 1)
 
+        # Adds Seat Objects to Cabin
         for row in cabin.findall("ns:Row", ns):
             row_num = row.find("ns:Number", ns).text
             for seat in row.findall("ns:Seat", ns):
@@ -191,17 +203,22 @@ def seatmap2_to_json(xml):
                 offer = seat.find("ns:OfferItemRefs", ns)
                 offer_id = offer.text if offer != None else None
 
+                # Layout of Seat JSON
                 seatJSON = {
                     "id": row_num + col_num,
                     "available": "true" if available else "false",
                     "tags": tags,
                     "fee": seat_offers[offer_id] if offer != None else {"currencyCode": "N/A", "price": "N/A"}
                 }
+
+                # Adds Seat Object
                 cabinJSON["seats"].append(seatJSON)
 
+        # Adds Cabin JSON to Cabin List
         res["cabins"].append(cabinJSON)
 
-    return res
+    return res # Returns Resopnse JSON
 
+# Runs Main Funciton
 if __name__ == "__main__":
     main()
