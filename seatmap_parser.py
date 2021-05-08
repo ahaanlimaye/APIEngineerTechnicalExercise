@@ -23,6 +23,8 @@ def main():
     new_path = Path(str(path.parent) + "/" + str(path.stem) + "_parsed.json")
     with open(new_path, 'w+') as f:
         json.dump(res, f, indent=4)
+    
+    print(f"Successfully created JSON of {filepath} in new file: {new_path}")
 
 # XML File Datatype
 def dir_path(path):
@@ -110,7 +112,7 @@ def seatmap1_to_json(xml):
     return res # Returns Response JSON
 
 def seatmap2_to_json(xml):
-    
+
     # Layout of Response JSON
     res = {
         "departureAirport": "",
