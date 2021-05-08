@@ -1,0 +1,2176 @@
+{
+    "departureAirport": "LAS",
+    "arrivalAirport": "IAH",
+    "departureDateTime": "2020-11-22T15:30:00",
+    "flightNumber": "1179",
+    "cabins": [
+        {
+            "class": "First",
+            "layout": "AB EF",
+            "numCols": 4,
+            "numRows": 2,
+            "seats": [
+                {
+                    "id": "1A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "1B",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "1E",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "1F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "2A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "2B",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "2E",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "2F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "Economy",
+            "layout": "ABC DEF",
+            "numCols": 6,
+            "numRows": 27,
+            "seats": [
+                {
+                    "id": "7A",
+                    "available": "false",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "7B",
+                    "available": "false",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "7C",
+                    "available": "false",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "7D",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "7E",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "7F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "8F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "9F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "10F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "11F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "12A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "12B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "12C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "12D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "12E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "12F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "14A",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "14B",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "2600",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "14C",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "14D",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "14E",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "2600",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "14F",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "15A",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "15B",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "2600",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "15C",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "15D",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "15E",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "2600",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "15F",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20A",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20B",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20C",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20D",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20E",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "20F",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21A",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21B",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21C",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21D",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21E",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "21F",
+                    "available": "false",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "22A",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "22B",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "22C",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "22D",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "22E",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "22F",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "23A",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "23B",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "23C",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "23D",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "23E",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "23F",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "N/A",
+                    "available": "N/A",
+                    "tags": [],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "24A",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "24B",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "24C",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "24D",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "24E",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "24F",
+                    "available": "true",
+                    "tags": [
+                        "Overwing",
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "25A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "25B",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "25C",
+                    "available": "false",
+                    "tags": [
+                        "BlockedSeat_Permanent",
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "25D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "25E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "25F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "4200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "26F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "2700",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "27A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "27B",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "27C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "27D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "27E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "27F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "28A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "28B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "28C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "28D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "28E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "28F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "29F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "30F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "31F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "32F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "34F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "35F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "36F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "37F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38A",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38C",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38D",
+                    "available": "true",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "1800",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38E",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "38F",
+                    "available": "true",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "1300",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "39A",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "39B",
+                    "available": "true",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "1200",
+                        "currencyCode": "USD",
+                        "tax": "0"
+                    }
+                },
+                {
+                    "id": "39C",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "39D",
+                    "available": "false",
+                    "tags": [
+                        "Aisle"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "39E",
+                    "available": "false",
+                    "tags": [
+                        "Center"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                },
+                {
+                    "id": "39F",
+                    "available": "false",
+                    "tags": [
+                        "Window"
+                    ],
+                    "fee": {
+                        "price": "N/A",
+                        "currencyCode": "N/A",
+                        "tax": "N/A"
+                    }
+                }
+            ]
+        }
+    ]
+}
