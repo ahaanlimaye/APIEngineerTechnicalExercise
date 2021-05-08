@@ -79,6 +79,7 @@ def seatmap1_to_json(xml):
 
         # Adds Seat Objects to Cabin
         for row in cabin:
+            rowList = []
             for seat in row:
                 summary = seat.find("ns:Summary", ns)
                 service = seat.find("ns:Service", ns)
@@ -101,8 +102,11 @@ def seatmap1_to_json(xml):
                     }
                 }
 
-                # Adds Seat Object
-                cabinJSON["seats"].append(seatJSON)
+                # Adds Seat Object to Row List
+                rowList.append(seatJSON)
+            
+            # Adds Row to Cabin List
+            cabinJSON["seats"].append(rowList)
         
             cabinJSON["numRows"] += 1 #Increments numRows of Cabin
 
@@ -192,6 +196,7 @@ def seatmap2_to_json(xml):
 
         # Adds Seat Objects to Cabin
         for row in cabin.findall("ns:Row", ns):
+            rowList = []
             row_num = row.find("ns:Number", ns).text
             for seat in row.findall("ns:Seat", ns):
                 col_num = seat.find("ns:Column", ns).text
@@ -213,8 +218,11 @@ def seatmap2_to_json(xml):
                     "fee": seat_offers[offer_id] if offer != None else {"currencyCode": "N/A", "price": "N/A"}
                 }
 
-                # Adds Seat Object
-                cabinJSON["seats"].append(seatJSON)
+                # Adds Seat Object to Row List
+                rowList.append(seatJSON)
+            
+            # Adds Row to Cabin List
+            cabinJSON["seats"].append(rowList)
 
         # Adds Cabin JSON to Cabin List
         res["cabins"].append(cabinJSON)
