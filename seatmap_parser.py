@@ -33,7 +33,6 @@ def dir_path(path):
     else:
         raise argparse.ArgumentTypeError(f"readable_dir:{path} is not a valid path, must be an XML file")  
 
-
 def seatmap1_to_json(xml):
 
     # Layout of Response JSON
